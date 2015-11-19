@@ -1,0 +1,60 @@
+@media (max-width: 767px) {
+  .space {
+    padding-left: 15px;
+  }
+  #about, #experience, #formation, #informations, #portfolio {
+  padding: 20px 20px 20px 20px;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #bbbbbb;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #ffffff;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #ffffff;
+    background-color: #262b37;
+  }
+  .container>.navbar-header {
+    padding-bottom: 10px;
+  }
+  .navbar-nav>li>a, .navbar-brand {
+    padding-left: 50px;
+    padding-right: 0;
+  }
+  .navbar-right {
+    padding-right: 0;
+  }
+  .navbar-brand {
+    padding-left: 30px;
+  }
+  #portfoliolist .portfolio {
+    width:48%;
+    margin:1%;
+  }   
+  h1, h2, ul, .social, .col-md-8 p, .col-md-12 p {
+    text-align: center;
+  }
+  .nav li {
+    text-align: left;
+  }
+  li {
+    list-style-type: none;
+  }
+  #filters li {
+    float: none;
+  }
+  .showmap {
+  height: 300px;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .space {
+    padding-left: 15px;
+  }
+
+  #portfoliolist .portfolio {
+    width:48%;
+    margin:1%;
+  }    
+}
