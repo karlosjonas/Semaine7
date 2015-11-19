@@ -4,10 +4,10 @@ $(document).ready(function () {
 
          var target = this.hash,
              $target = $(target);
+         var position = $target.offset().top - 60
 
          $('html, body').stop().animate({
-             scrollTop: $target.offset().top - 60 // 60 c'est la height de ma navbar en pixels
-         }, 600, 'swing', function () {
-         });
+             scrollTop: position // 60 c'est la height de ma navbar en pixels
+         }, 600, 'swing' );
      });
  });
