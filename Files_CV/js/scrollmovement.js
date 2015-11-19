@@ -1,13 +1,14 @@
- $(function () {
-            //au click sur chaque lien nous ferons apelle à la fonction animate de Jquery
-            $('nav a').on('click', function (e) {
-                e.preventDefault();
-                // hash permet de cibler le href de nos liens.
-                var hash = this.hash;
-                $('html, body').animate({
-                    scrollTop: $(this.hash).offset().top - 61
-                }, 500, function () {
-                    window.location.hash = hash;
-                });
-            });
-        });
+$(document).ready(function () {
+     $('a[href^="#"]').on('click', function (e) {
+         e.preventDefault();
+
+         var target = this.hash,
+             $target = $(target);
+
+         $('html, body').stop().animate({
+             scrollTop: $target.offset().top - 60 // 60 c'est la height de ma navbar en pixels
+         }, 600, 'swing', function () {
+             window.location.hash = scrollTop;
+         });
+     });
+ });
