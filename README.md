@@ -7,4 +7,4 @@
 
 J'ai pris le parti d'afficher la map Google sur toute la largeur, sinon c'était pas terrible.  
 
-Lien vers la page : __[CV](http://sebastienwozny.com/Simplon/Semaine7/CV-Bootstrap/)__  
+Lien vers la page : __[CV](http://sebastienwozny.com/Simplon/Semaine7/)__  
