@@ -29,9 +29,14 @@
     padding-left: 30px;
   }
   #portfoliolist .portfolio {
-    width:48%;
-    margin:1%;
+    width:100%;
+    max-width:400px;
+    float: none;
+    margin:0 auto;
   }   
+  #portfoliolist {
+    text-align: center;    
+  }
   h1, h2, ul, .social, .col-md-8 p, .col-md-12 p {
     text-align: center;
   }
